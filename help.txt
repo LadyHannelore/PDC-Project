@@ -1,0 +1,5 @@
+python3 integer_generator.py
+
+clang -Xpreprocessor -fopenmp -lomp mine.c -o mine
+
+./mine
